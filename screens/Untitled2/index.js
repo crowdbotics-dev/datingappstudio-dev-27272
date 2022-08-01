@@ -96,15 +96,57 @@ const Untitled2 = () => {
       width: 150,
       height: 20
     }} placeholder="New York City"></TextInput><Text style={{
-      left: 15,
-      top: 282,
+      left: 6,
+      top: 236,
       position: "absolute",
       width: 100,
-      height: 50,
+      height: 20,
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Country</Text></View>;
+    }}>Country</Text><TextInput style={{
+      left: 8,
+      top: 252,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 23
+    }} placeholder="U.S.A"></TextInput><Text style={{
+      left: 6,
+      top: 278,
+      position: "absolute",
+      width: 100,
+      height: 19,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Phone Number</Text><TextInput style={{
+      left: 6,
+      top: 296,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 121,
+      height: 18
+    }} placeholder="555-555-5555"></TextInput><Text style={{
+      left: 7,
+      top: 318,
+      position: "absolute",
+      width: 100,
+      height: 16,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Interest</Text><TextInput style={{
+      left: 6,
+      top: 332,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 19
+    }} placeholder="Interest 1, Interest 2"></TextInput></View>;
 };
 
 export default Untitled2;
