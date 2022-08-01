@@ -2,11 +2,15 @@ import { Pressable } from "react-native";
 import React from "react";
 import { Text, View, TouchableOpacity, StyleSheet, TextInput, TouchableHighlight } from "react-native";
 
-const pressed = () => {
+const pressed = ({
+  navigation
+}) => {
   console.log("pressed");
 };
 
-const Signup = () => {
+const Signup = ({
+  navigation
+}) => {
   return <View style={styles.container}>
       <View style={styles.heading}>
         <Text style={{
@@ -43,7 +47,7 @@ const Signup = () => {
         fontSize: 10
       }}>Already have an account? </Text>
         <TouchableOpacity onPress={pressed}>
-          <Pressable onPress={{}}><Text style={{
+          <Pressable onPress={() => navigation.navigate("Untitled1")}><Text style={{
             fontSize: 10
           }}>Login</Text></Pressable>
         </TouchableOpacity>
@@ -149,7 +153,7 @@ export default Signup;
 
 const Button = props => {
   return <TouchableHighlight onPress={props.onPress} underlayColor='#DDDDDD'>
-      <Pressable onPress={{}}><View style={[btnStyles.button, {
+      <Pressable onPress={() => navigation.navigate("Untitled2")}><View style={[btnStyles.button, {
         backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
         height: props.height ? props.height : 49,
         borderWidth: props.borderWidth ? props.borderWidth : 0,
