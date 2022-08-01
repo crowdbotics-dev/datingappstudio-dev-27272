@@ -1,14 +1,18 @@
+import { Pressable } from "react-native";
 import React from "react";
-import { Text, View, ScrollView, TouchableOpacity, StyleSheet, TextInput, TouchableHighlight } from "react-native";
+import { Text, View, TouchableOpacity, StyleSheet, TextInput, TouchableHighlight } from "react-native";
 
 const pressed = () => {
   console.log("pressed");
 };
 
 const Signup = () => {
-  return <ScrollView style={styles.container}>
+  return <View style={styles.container}>
       <View style={styles.heading}>
-        <Text style={styles.headingText}>Sign up</Text>
+        <Text style={{
+        fontWeight: 900,
+        fontSize: 17
+      }}>Sign up</Text>
       </View>
       <View>
         <View style={styles.emailContainer}>
@@ -44,7 +48,7 @@ const Signup = () => {
         }}>Login</Text>
         </TouchableOpacity>
       </View>
-    </ScrollView>;
+    </View>;
 };
 
 const styles = StyleSheet.create({
@@ -135,16 +139,16 @@ export default Signup;
 
 const Button = props => {
   return <TouchableHighlight onPress={props.onPress} underlayColor='#DDDDDD'>
-      <View style={[btnStyles.button, {
-      backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
-      height: props.height ? props.height : 49,
-      borderWidth: props.borderWidth ? props.borderWidth : 0,
-      borderColor: props.borderColor ? props.borderColor : "#000000"
-    }]}>
+      <Pressable onPress={{}}><View style={[btnStyles.button, {
+        backgroundColor: props.backgroundColor ? props.backgroundColor : "#000000",
+        height: props.height ? props.height : 49,
+        borderWidth: props.borderWidth ? props.borderWidth : 0,
+        borderColor: props.borderColor ? props.borderColor : "#000000"
+      }]}>
         <Text style={[btnStyles.text, {
-        color: props.color ? props.color : "#ffffff"
-      }]}>{props.children}</Text>
-      </View>
+          color: props.color ? props.color : "#ffffff"
+        }]}>{props.children}</Text>
+      </View></Pressable>
     </TouchableHighlight>;
 };
 
@@ -163,7 +167,10 @@ const btnStyles = StyleSheet.create({
 
 const Input = props => {
   return <View>
-      <TextInput style={textStyles.input} placeholder={props.placeholder} value={props.value} onChangeText={num => props.setValue(num)} placeholderTextColor='#ddd' editable={props.editable !== false} />
+      <TextInput style={{
+      left: 0,
+      top: 0
+    }} placeholder={props.placeholder} value={props.value} onChangeText={num => props.setValue(num)} placeholderTextColor='#ddd' editable={props.editable !== false} />
       {props.errorText ? <Text style={textStyles.error}>{props.errorText}</Text> : null}
     </View>;
 };

@@ -42,16 +42,16 @@ const Untitled1 = ({
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }} placeholder="Enter Email"></TextInput><View style={{
-      left: 29,
-      top: 242,
-      position: "absolute",
-      height: 33,
-      width: 140,
-      backgroundColor: "#000000",
-      borderRadius: 12,
-      color: "#777777"
-    }}></View><Text style={{
+    }} placeholder="Enter Email"></TextInput><Pressable onPress={{}}><View style={{
+        left: 24,
+        top: 234,
+        position: "absolute",
+        height: 33,
+        width: 140,
+        backgroundColor: "#000000",
+        borderRadius: 12,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
       position: "absolute",
       left: 50,
       top: 253,
