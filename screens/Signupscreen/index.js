@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View, ScrollView, TouchableOpacity, Image, StyleSheet, TextInput, TouchableHighlight } from "react-native";
+import { Text, View, ScrollView, TouchableOpacity, StyleSheet, TextInput, TouchableHighlight } from "react-native";
 
 const pressed = () => {
   console.log("pressed");
@@ -32,22 +32,16 @@ const Signup = () => {
           <Text style={styles.orText}>Or</Text>
           <View style={styles.line} />
         </View>
-        <View style={styles.imageContainer}>
-          <View style={styles.iconContainer}>
-            <Image source={require("./assets/appleIcon.png")} style={styles.icon} />
-          </View>
-          <View style={styles.iconContainer}>
-            <Image source={require("./assets/googleIcon.png")} style={styles.icon} />
-          </View>
-          <View style={styles.iconContainer}>
-            <Image source={require("./assets/fbIcon.png")} style={styles.icon} />
-          </View>
-        </View>
+        
       </View>
       <View style={styles.footerContainer}>
-        <Text style={styles.footerText}>I have an account? </Text>
+        <Text style={{
+        fontSize: 10
+      }}>Already have an account? </Text>
         <TouchableOpacity onPress={pressed}>
-          <Text>Login</Text>
+          <Text style={{
+          fontSize: 10
+        }}>Login</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>;
