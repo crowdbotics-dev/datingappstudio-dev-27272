@@ -43,7 +43,8 @@ const Untitled2 = () => {
       backgroundColor: "#ffffff",
       borderColor: "#cccccc",
       width: 150,
-      height: 22
+      height: 22,
+      color: "#000000"
     }} placeholder="First Last"></TextInput><Text style={{
       left: 4,
       top: 119,
