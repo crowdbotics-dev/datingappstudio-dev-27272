@@ -62,7 +62,27 @@ const Signup = ({
       fontSize: 14,
       borderRadius: 0,
       opacity: 0.8
-    }}>Or</Text></View>;
+    }}>Or</Text><View style={{
+      left: 23,
+      top: 253,
+      position: "absolute",
+      height: 33,
+      width: 140,
+      backgroundColor: "#000000",
+      borderRadius: 12,
+      color: "#777777"
+    }}></View><Text style={{
+      position: "absolute",
+      left: 42,
+      top: 263,
+      width: 100,
+      height: 20,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0,
+      color: "#ffffff",
+      textAlign: "center"
+    }}>Signup</Text></View>;
 };
 
 const styles = StyleSheet.create({
