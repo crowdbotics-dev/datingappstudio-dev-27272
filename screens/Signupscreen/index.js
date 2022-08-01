@@ -38,14 +38,8 @@ const Signup = ({
           <Input placeholder='Enter' />
         </View>
 
-        <View style={styles.loginContainer}>
-          <Button onPress={pressed}>Sign up</Button>
-        </View>
-        <View style={styles.orContainer}>
-          <View style={styles.line} />
-          
-          <View style={styles.line} />
-        </View>
+        
+        
         
       </View>
       <View style={styles.footerContainer}>

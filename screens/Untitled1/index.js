@@ -36,11 +36,12 @@ const Untitled1 = ({
       borderRadius: 0,
       fontWeight: 500
     }}>Login</Text><TextInput style={{
-      left: 21,
-      top: 97,
       position: "absolute",
+      left: 23.5,
+      top: 97,
       backgroundColor: "#ffffff",
       borderColor: "#cccccc",
+      borderWidth: 2,
       width: 150,
       height: 30
     }} placeholder="Enter Email"></TextInput><Pressable onPress={{}}><View style={{
@@ -84,9 +85,9 @@ const Untitled1 = ({
       borderRadius: 0,
       fontWeight: 500
     }}>Password</Text><TextInput style={{
-      left: 20,
-      top: 156,
       position: "absolute",
+      left: 23.5,
+      top: 156,
       backgroundColor: "#ffffff",
       borderColor: "#cccccc",
       width: 150,
@@ -101,10 +102,10 @@ const Untitled1 = ({
       fontSize: 10,
       borderRadius: 0,
       opacity: 0.61
-    }}>Forgot password</Text><CheckBox title="Show " style={{
+    }}>Forgot password</Text><CheckBox title="" style={{
       position: "absolute",
-      left: 0,
-      top: 190
+      left: 20,
+      top: 189
     }} size={10}></CheckBox><Text style={{
       left: 20,
       top: 310,
