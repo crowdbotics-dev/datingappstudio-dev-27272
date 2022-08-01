@@ -43,9 +43,9 @@ const Signup = () => {
         fontSize: 10
       }}>Already have an account? </Text>
         <TouchableOpacity onPress={pressed}>
-          <Text style={{
-          fontSize: 10
-        }}>Login</Text>
+          <Pressable onPress={{}}><Text style={{
+            fontSize: 10
+          }}>Login</Text></Pressable>
         </TouchableOpacity>
       </View>
     <Text style={{
