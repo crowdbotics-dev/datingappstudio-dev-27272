@@ -33,7 +33,7 @@ const Signup = () => {
         </View>
         <View style={styles.orContainer}>
           <View style={styles.line} />
-          <Text style={styles.orText}>Or</Text>
+          
           <View style={styles.line} />
         </View>
         
@@ -48,7 +48,17 @@ const Signup = () => {
         }}>Login</Text>
         </TouchableOpacity>
       </View>
-    </View>;
+    <Text style={{
+      left: 84,
+      top: 296,
+      position: "absolute",
+      width: 26,
+      height: 17,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0,
+      opacity: 0.8
+    }}>Or</Text></View>;
 };
 
 const styles = StyleSheet.create({
