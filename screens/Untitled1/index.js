@@ -33,7 +33,8 @@ const Untitled1 = ({
       height: 50,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Login</Text><TextInput style={{
       left: 21,
       top: 97,
@@ -80,7 +81,8 @@ const Untitled1 = ({
       height: 50,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Password</Text><TextInput style={{
       left: 20,
       top: 156,

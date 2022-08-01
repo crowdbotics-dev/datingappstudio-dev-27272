@@ -35,7 +35,8 @@ const Untitled2 = () => {
       height: 17,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Name</Text><TextInput style={{
       left: 4,
       top: 93,
@@ -53,7 +54,8 @@ const Untitled2 = () => {
       height: 21,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Birthday</Text><TextInput style={{
       left: 4,
       top: 135,
@@ -70,7 +72,8 @@ const Untitled2 = () => {
       height: 16,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Gender</Text><TextInput style={{
       left: 4,
       top: 173,
@@ -87,7 +90,8 @@ const Untitled2 = () => {
       height: 18,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>City</Text><TextInput style={{
       left: 6,
       top: 212,
@@ -104,7 +108,8 @@ const Untitled2 = () => {
       height: 20,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Country</Text><TextInput style={{
       left: 8,
       top: 252,
@@ -121,7 +126,8 @@ const Untitled2 = () => {
       height: 19,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Phone Number</Text><TextInput style={{
       left: 6,
       top: 296,
@@ -138,7 +144,8 @@ const Untitled2 = () => {
       height: 16,
       lineHeight: 14,
       fontSize: 14,
-      borderRadius: 0
+      borderRadius: 0,
+      fontWeight: 500
     }}>Interest</Text><TextInput style={{
       left: 6,
       top: 332,

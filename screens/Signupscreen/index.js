@@ -20,15 +20,21 @@ const Signup = ({
       </View>
       <View>
         <View style={styles.emailContainer}>
-          <Text style={styles.mr10}>Email address</Text>
+          <Text style={{
+          fontWeight: 500
+        }}>Email address</Text>
           <Input placeholder='Email' />
         </View>
         <View style={styles.mb20}>
-          <Text style={styles.mr10}>Password</Text>
+          <Text style={{
+          fontWeight: 500
+        }}>Password</Text>
           <Input placeholder='Enter' />
         </View>
         <View style={styles.mb20}>
-          <Text style={styles.mr10}>Confirm password</Text>
+          <Text style={{
+          fontWeight: 500
+        }}>Confirm password</Text>
           <Input placeholder='Enter' />
         </View>
 
